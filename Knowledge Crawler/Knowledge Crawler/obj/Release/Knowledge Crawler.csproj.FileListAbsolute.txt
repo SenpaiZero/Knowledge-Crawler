@@ -1,0 +1,19 @@
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\Knowledge Crawler.exe.config
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\Knowledge Crawler.exe
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\Knowledge Crawler.pdb
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.AssemblyReference.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge_Crawler.admin.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge_Crawler.gameForm.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge_Crawler.login.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge_Crawler.Properties.Resources.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge_Crawler.start.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.GenerateResource.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.CoreCompileInputs.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.Fody.CopyLocal.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.csproj.CopyComplete
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.exe
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Release\Knowledge Crawler.pdb
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\KnowledgeCrawlerDB.ldf
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Release\KnowledgeCrawlerDB.mdf

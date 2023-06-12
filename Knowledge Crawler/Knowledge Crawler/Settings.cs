@@ -8,10 +8,7 @@ namespace Knowledge_Crawler
 {
     class Settings
     {
-        public static string server = "Data Source=(localdb)\\MSSQLLocalDB;Initial " +
-            "Catalog=KnowledgeCrawlerDB;Integrated Security=True;Connect Timeout=30;" +
-            "Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" +
-            "MultiSubnetFailover=False";
+        public static string server = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\KnowledgeCrawlerDB.mdf;Integrated Security=True";
         public static int Width { get; set; }
         public static int Height { get; set; }
 
