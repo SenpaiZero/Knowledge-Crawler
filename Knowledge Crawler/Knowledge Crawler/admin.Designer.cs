@@ -44,10 +44,10 @@
             this.answerTB = new Guna.UI2.WinForms.Guna2TextBox();
             this.addBtn = new Guna.UI2.WinForms.Guna2Button();
             this.searchTB = new Guna.UI2.WinForms.Guna2TextBox();
-            this.searchBtn = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.refreshBtn = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.deleteBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.backBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.deleteBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.refreshBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.searchBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listTable)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,7 @@
             this.guna2BorderlessForm1.BorderRadius = 25;
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.ResizeForm = false;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // guna2Panel1
@@ -109,8 +110,10 @@
             this.guna2HtmlLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Enabled = false;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Variable Small", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(171)))), ((int)(((byte)(121)))));
+            this.guna2HtmlLabel1.IsSelectionEnabled = false;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 48);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(1063, 55);
@@ -282,75 +285,75 @@
             this.searchTB.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.searchTB.TabIndex = 18;
             // 
-            // searchBtn
-            // 
-            this.searchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
-            this.searchBtn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.searchBtn.HoverState.ImageSize = new System.Drawing.Size(49, 49);
-            this.searchBtn.Image = global::Knowledge_Crawler.Properties.Resources.Sprite_0001;
-            this.searchBtn.ImageOffset = new System.Drawing.Point(0, 0);
-            this.searchBtn.ImageRotate = 0F;
-            this.searchBtn.ImageSize = new System.Drawing.Size(40, 40);
-            this.searchBtn.Location = new System.Drawing.Point(428, 127);
-            this.searchBtn.Name = "searchBtn";
-            this.searchBtn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.searchBtn.Size = new System.Drawing.Size(49, 49);
-            this.searchBtn.TabIndex = 19;
-            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
-            // 
-            // refreshBtn
-            // 
-            this.refreshBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
-            this.refreshBtn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.refreshBtn.HoverState.ImageSize = new System.Drawing.Size(49, 49);
-            this.refreshBtn.Image = ((System.Drawing.Image)(resources.GetObject("refreshBtn.Image")));
-            this.refreshBtn.ImageOffset = new System.Drawing.Point(0, 0);
-            this.refreshBtn.ImageRotate = 0F;
-            this.refreshBtn.ImageSize = new System.Drawing.Size(40, 40);
-            this.refreshBtn.Location = new System.Drawing.Point(483, 127);
-            this.refreshBtn.Name = "refreshBtn";
-            this.refreshBtn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.refreshBtn.Size = new System.Drawing.Size(49, 49);
-            this.refreshBtn.TabIndex = 20;
-            this.refreshBtn.Click += new System.EventHandler(this.refreshBtn_Click);
-            // 
-            // deleteBtn
-            // 
-            this.deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
-            this.deleteBtn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.deleteBtn.HoverState.ImageSize = new System.Drawing.Size(49, 49);
-            this.deleteBtn.Image = global::Knowledge_Crawler.Properties.Resources.delete__1_;
-            this.deleteBtn.ImageOffset = new System.Drawing.Point(0, 0);
-            this.deleteBtn.ImageRotate = 0F;
-            this.deleteBtn.ImageSize = new System.Drawing.Size(40, 40);
-            this.deleteBtn.Location = new System.Drawing.Point(538, 126);
-            this.deleteBtn.Name = "deleteBtn";
-            this.deleteBtn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.deleteBtn.Size = new System.Drawing.Size(49, 49);
-            this.deleteBtn.TabIndex = 21;
-            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
-            // 
             // backBtn
             // 
             this.backBtn.BackColor = System.Drawing.Color.Transparent;
             this.backBtn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backBtn.HoverState.ImageSize = new System.Drawing.Size(48, 48);
+            this.backBtn.HoverState.ImageSize = new System.Drawing.Size(40, 40);
             this.backBtn.Image = global::Knowledge_Crawler.Properties.Resources.Sprite_0002;
             this.backBtn.ImageOffset = new System.Drawing.Point(0, 0);
             this.backBtn.ImageRotate = 0F;
             this.backBtn.ImageSize = new System.Drawing.Size(32, 32);
-            this.backBtn.Location = new System.Drawing.Point(-1, 31);
+            this.backBtn.Location = new System.Drawing.Point(0, 37);
             this.backBtn.Name = "backBtn";
-            this.backBtn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backBtn.Size = new System.Drawing.Size(64, 64);
+            this.backBtn.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.backBtn.Size = new System.Drawing.Size(55, 55);
             this.backBtn.TabIndex = 22;
             this.backBtn.UseTransparentBackground = true;
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
+            // deleteBtn
+            // 
+            this.deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
+            this.deleteBtn.CheckedState.ImageSize = new System.Drawing.Size(49, 49);
+            this.deleteBtn.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.deleteBtn.Image = global::Knowledge_Crawler.Properties.Resources.delete__1_;
+            this.deleteBtn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.deleteBtn.ImageRotate = 0F;
+            this.deleteBtn.ImageSize = new System.Drawing.Size(32, 32);
+            this.deleteBtn.Location = new System.Drawing.Point(538, 126);
+            this.deleteBtn.Name = "deleteBtn";
+            this.deleteBtn.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.deleteBtn.Size = new System.Drawing.Size(49, 49);
+            this.deleteBtn.TabIndex = 21;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
+            // 
+            // refreshBtn
+            // 
+            this.refreshBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
+            this.refreshBtn.CheckedState.ImageSize = new System.Drawing.Size(49, 49);
+            this.refreshBtn.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.refreshBtn.Image = ((System.Drawing.Image)(resources.GetObject("refreshBtn.Image")));
+            this.refreshBtn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.refreshBtn.ImageRotate = 0F;
+            this.refreshBtn.ImageSize = new System.Drawing.Size(32, 32);
+            this.refreshBtn.Location = new System.Drawing.Point(483, 127);
+            this.refreshBtn.Name = "refreshBtn";
+            this.refreshBtn.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.refreshBtn.Size = new System.Drawing.Size(49, 49);
+            this.refreshBtn.TabIndex = 20;
+            this.refreshBtn.Click += new System.EventHandler(this.refreshBtn_Click);
+            // 
+            // searchBtn
+            // 
+            this.searchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(80)))), ((int)(((byte)(104)))));
+            this.searchBtn.CheckedState.ImageSize = new System.Drawing.Size(45, 45);
+            this.searchBtn.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.searchBtn.Image = global::Knowledge_Crawler.Properties.Resources.Sprite_0001;
+            this.searchBtn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.searchBtn.ImageRotate = 0F;
+            this.searchBtn.ImageSize = new System.Drawing.Size(32, 32);
+            this.searchBtn.Location = new System.Drawing.Point(428, 127);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.searchBtn.Size = new System.Drawing.Size(49, 49);
+            this.searchBtn.TabIndex = 19;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
+            // 
             // admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(58)))), ((int)(((byte)(81)))));
             this.ClientSize = new System.Drawing.Size(1087, 605);
             this.Controls.Add(this.backBtn);
@@ -365,6 +368,8 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1087, 605);
             this.Name = "admin";
             this.Text = "admin";
             this.Load += new System.EventHandler(this.admin_Load);

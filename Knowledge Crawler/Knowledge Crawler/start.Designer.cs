@@ -29,15 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(start));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Shapes2 = new Guna.UI2.WinForms.Guna2Shapes();
-            this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.guna2Shapes3 = new Guna.UI2.WinForms.Guna2Shapes();
             this.guna2Shapes4 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2Shapes2 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.playBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,38 +63,6 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(800, 31);
             this.guna2Panel1.TabIndex = 8;
-            // 
-            // guna2Shapes2
-            // 
-            this.guna2Shapes2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Shapes2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(67)))), ((int)(((byte)(96)))));
-            this.guna2Shapes2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Shapes2.Location = new System.Drawing.Point(1022, 3);
-            this.guna2Shapes2.Name = "guna2Shapes2";
-            this.guna2Shapes2.PolygonSkip = 1;
-            this.guna2Shapes2.Rotate = 0F;
-            this.guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
-            this.guna2Shapes2.Size = new System.Drawing.Size(25, 25);
-            this.guna2Shapes2.TabIndex = 10;
-            this.guna2Shapes2.Text = "guna2Shapes2";
-            this.guna2Shapes2.UseTransparentBackground = true;
-            this.guna2Shapes2.Zoom = 100;
-            // 
-            // guna2Shapes1
-            // 
-            this.guna2Shapes1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(67)))), ((int)(((byte)(96)))));
-            this.guna2Shapes1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Shapes1.Location = new System.Drawing.Point(1053, 3);
-            this.guna2Shapes1.Name = "guna2Shapes1";
-            this.guna2Shapes1.PolygonSkip = 1;
-            this.guna2Shapes1.Rotate = 0F;
-            this.guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
-            this.guna2Shapes1.Size = new System.Drawing.Size(25, 25);
-            this.guna2Shapes1.TabIndex = 9;
-            this.guna2Shapes1.Text = "guna2Shapes1";
-            this.guna2Shapes1.UseTransparentBackground = true;
-            this.guna2Shapes1.Zoom = 100;
             // 
             // guna2Shapes3
             // 
@@ -126,6 +97,38 @@
             this.guna2Shapes4.UseTransparentBackground = true;
             this.guna2Shapes4.Zoom = 100;
             this.guna2Shapes4.Click += new System.EventHandler(this.guna2Shapes4_Click);
+            // 
+            // guna2Shapes2
+            // 
+            this.guna2Shapes2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(67)))), ((int)(((byte)(96)))));
+            this.guna2Shapes2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes2.Location = new System.Drawing.Point(1022, 3);
+            this.guna2Shapes2.Name = "guna2Shapes2";
+            this.guna2Shapes2.PolygonSkip = 1;
+            this.guna2Shapes2.Rotate = 0F;
+            this.guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
+            this.guna2Shapes2.Size = new System.Drawing.Size(25, 25);
+            this.guna2Shapes2.TabIndex = 10;
+            this.guna2Shapes2.Text = "guna2Shapes2";
+            this.guna2Shapes2.UseTransparentBackground = true;
+            this.guna2Shapes2.Zoom = 100;
+            // 
+            // guna2Shapes1
+            // 
+            this.guna2Shapes1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(67)))), ((int)(((byte)(96)))));
+            this.guna2Shapes1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes1.Location = new System.Drawing.Point(1053, 3);
+            this.guna2Shapes1.Name = "guna2Shapes1";
+            this.guna2Shapes1.PolygonSkip = 1;
+            this.guna2Shapes1.Rotate = 0F;
+            this.guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
+            this.guna2Shapes1.Size = new System.Drawing.Size(25, 25);
+            this.guna2Shapes1.TabIndex = 9;
+            this.guna2Shapes1.Text = "guna2Shapes1";
+            this.guna2Shapes1.UseTransparentBackground = true;
+            this.guna2Shapes1.Zoom = 100;
             // 
             // playBtn
             // 
@@ -166,29 +169,67 @@
             this.guna2HtmlLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Enabled = false;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Variable Small", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(171)))), ((int)(((byte)(121)))));
+            this.guna2HtmlLabel1.IsSelectionEnabled = false;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 78);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(776, 55);
             this.guna2HtmlLabel1.TabIndex = 11;
+            this.guna2HtmlLabel1.TabStop = false;
             this.guna2HtmlLabel1.Text = "KNOWLEDGE CRAWLER";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(48, 48);
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton2.Image = global::Knowledge_Crawler.Properties.Resources.question;
+            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton2.ImageRotate = 0F;
+            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(32, 32);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(740, 346);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(48, 48);
+            this.guna2ImageButton2.TabIndex = 13;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(48, 48);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Image = global::Knowledge_Crawler.Properties.Resources.setting;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(32, 32);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(740, 390);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(48, 48);
+            this.guna2ImageButton1.TabIndex = 12;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            // 
             // start
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(58)))), ((int)(((byte)(81)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.guna2ImageButton2);
+            this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2TileButton1);
             this.Controls.Add(this.playBtn);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(800, 450);
             this.Name = "start";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "start";
+            this.Load += new System.EventHandler(this.start_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -205,5 +246,7 @@
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
         private Guna.UI2.WinForms.Guna2TileButton playBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
     }
 }

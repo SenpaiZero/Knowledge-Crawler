@@ -37,10 +37,16 @@ C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge_Cra
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge_Crawler.login.resources
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.Fody.CopyLocal.cache
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\KnowledgeCrawlerDB.ldf
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\KnowledgeCrawlerDB.mdf
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Knowledge Crawler.exe.config
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Knowledge Crawler.exe
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Knowledge Crawler.pdb
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.xml
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.AssemblyReference.cache
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.SuggestedBindingRedirects.cache
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge_Crawler.admin.resources
@@ -50,9 +56,23 @@ C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\D
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge_Crawler.start.resources
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.GenerateResource.cache
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.CoreCompileInputs.cache
-C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.Fody.CopyLocal.cache
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.csproj.CopyComplete
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.exe
 C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.pdb
-C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\KnowledgeCrawlerDB.ldf
-C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\KnowledgeCrawlerDB.mdf
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge_Crawler.settingForm.resources
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Knowledge Crawler.exe.manifest
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Knowledge Crawler.application
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Guna.UI2.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.Asio.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.Core.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.Midi.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.Wasapi.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.WinForms.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\NAudio.WinMM.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.exe.manifest
+C:\Users\Xeb\Desktop\Knowledge Crawler\Knowledge Crawler\Knowledge Crawler\obj\Debug\Knowledge Crawler.application

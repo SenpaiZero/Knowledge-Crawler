@@ -17,9 +17,18 @@ namespace Knowledge_Crawler
         {
             InitializeComponent();
         }
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParams = base.CreateParams;
+                handleParams.ExStyle |= 0x02000000;
+                return handleParams;
+            }
+        }
         private void guna2Shapes4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Environment.Exit(0);
         }
 
@@ -30,7 +39,8 @@ namespace Knowledge_Crawler
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(searchTB.Text))
+            Settings.playMenuSelect();
+            if (string.IsNullOrEmpty(searchTB.Text))
             {
                 loadData();
                 return;
@@ -53,12 +63,14 @@ namespace Knowledge_Crawler
 
         private void refreshBtn_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             questionTB.Text = "";
             loadData();
         }
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             string selectedQuestion = "";
             if (listTable.Rows.Count > 0)
             {
@@ -109,6 +121,7 @@ namespace Knowledge_Crawler
 
         private void backBtn_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             this.Hide();
             start st = new start();
             st.StartPosition = FormStartPosition.CenterParent;
@@ -118,7 +131,8 @@ namespace Knowledge_Crawler
 
         private void addBtn_Click_1(object sender, EventArgs e)
         {
-            if(string.IsNullOrWhiteSpace(questionTB.Text) || string.IsNullOrWhiteSpace(answerTB.Text))
+            Settings.playMenuSelect();
+            if (string.IsNullOrWhiteSpace(questionTB.Text) || string.IsNullOrWhiteSpace(answerTB.Text))
             {
                 MessageBox.Show("Please fill up the details before adding", "INCOMPLETE DATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

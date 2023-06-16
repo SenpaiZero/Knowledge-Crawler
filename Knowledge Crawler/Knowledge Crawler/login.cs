@@ -29,12 +29,14 @@ namespace Knowledge_Crawler
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             this.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Close();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             if(usernameTB.Text == "admin" && passwordTB.Text == "admin")
             {
                 this.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -55,6 +57,20 @@ namespace Knowledge_Crawler
             else
             {
                 passwordTB.PasswordChar = '●';
+            }
+        }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParams = base.CreateParams;
+                handleParams.ExStyle |= 0x02000000;
+                return handleParams;
             }
         }
     }

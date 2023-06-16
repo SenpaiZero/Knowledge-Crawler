@@ -14,9 +14,16 @@ namespace Knowledge_Crawler
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new start());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new start());
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "AN ERROR HAS OCCURED", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -15,10 +15,32 @@ namespace Knowledge_Crawler
         public start()
         {
             InitializeComponent();
-        }
 
+            if (Settings.isFirst)
+            {
+                Settings.music = true;
+                Settings.clickSfx = true;
+                Settings.gameSfx = true;
+                Settings.isFirst = false;
+            }
+
+            if (Settings.music)
+                Settings.playBg();
+
+        }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParams = base.CreateParams;
+                handleParams.ExStyle |= 0x02000000;
+                return handleParams;
+            }
+        }
         private void playBtn_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
+            Settings.stopBg();
             gameForm game = new gameForm();
             this.Hide();
             game.StartPosition = FormStartPosition.CenterParent;
@@ -28,6 +50,7 @@ namespace Knowledge_Crawler
 
         private void guna2Shapes4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Environment.Exit(0);
         }
 
@@ -38,6 +61,7 @@ namespace Knowledge_Crawler
 
         private void guna2TileButton1_Click(object sender, EventArgs e)
         {
+            Settings.playMenuSelect();
             login log = new login(); ;
             log.StartPosition = FormStartPosition.CenterParent;
             if(log.ShowDialog() == DialogResult.OK)
@@ -48,6 +72,24 @@ namespace Knowledge_Crawler
                 ad.ShowDialog();
                 this.Close();
             }
+        }
+
+        private void start_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            Settings.playMenuSelect();
+            settingForm setting = new settingForm();
+            setting.StartPosition = FormStartPosition.CenterParent;
+            setting.ShowDialog();
+        }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ADMIN USERNAME IS \"admin\" AND THE PASSWORD IS \"admin\"", "ADMIN LOGIN INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
